@@ -1,0 +1,17 @@
+1. Nous allons manipuler un serveur HTTP, le port 8080 est alors le port standard.
+De plus, notre serveur doit être accessible via d'autres navigateurs web donc il faut
+utiliser le port 8080 afin de pouvoir communiquer à travers ces navigateurs.
+
+2. On obtient le résultat suivant :
+"<html><body><h1>Welcome to Nyx</h1></body></html>"
+
+3. Un peu plus de 50 requêtes HTTP sont déclenchées pour récupérer l'intégrité de la page
+(sur Google Chrome en attendant moins d'une minute).
+
+4. Avec le cache, cela prend à peu près 6,28 secondes (pour 34 requêtes) (ou 2,09 secondes
+pour 25 requêtes). Sans le cache, cela prend à peu près 6,76 secondes (pour 39 requêtes)
+(ou 2,68 secondes pour 28 requêtes).
+Avec le cache, on gagne ~7% du temps sans cache (ou ~25% lorsqu'on prend les valeurs de
+2 secondes).
+Quant à la bande passante, avec le cache, elle baisse d'à peu près 82% par rapport à celle
+sans cache (183,2 de bande passante sans cache et 31,3 avec cache).
