@@ -57,8 +57,8 @@ namespace BasicServerHTTPlistener
                 HttpListenerContext context = listener.GetContext();
                 HttpListenerRequest request = context.Request;
 
-                Header header = new Header();
-                header.displayHeader(request);
+                Header header = new Header(request);
+                header.displayHeader();
 
                 string documentContents;
                 using (Stream receiveStream = request.InputStream)
@@ -91,8 +91,12 @@ namespace BasicServerHTTPlistener
 
     internal class Header
     {
-        
-        public void displayHeader(HttpListenerRequest request)
+        private HttpListenerRequest request;
+        public Header(HttpListenerRequest request)
+        {
+            this.request = request;
+        }
+        public void displayHeader()
         {
             System.Collections.Specialized.NameValueCollection headers = request.Headers;
             foreach (string key in headers.AllKeys)

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BasicWebServer",
+    "\\BasicWebServer\\bin",
+    "\\BasicWebServer\\obj",
+    "\\BasicWebServer\\Properties",
+    "\\HttpListener\\BasicServerHttpListener"
+  ],
+  "SelectedNode": "\\BasicWebServer\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -75,6 +75,7 @@ namespace BasicServerHTTPlistener
                 // get url 
                 Console.WriteLine($"Received request for {request.Url}");
 
+                /**
                 //get url protocol
                 Console.WriteLine(request.Url.Scheme);
                 //get user in url
@@ -85,6 +86,7 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine(request.Url.Port);
                 //get path in url 
                 Console.WriteLine(request.Url.LocalPath);
+                
 
                 // parse path in url 
                 foreach (string str in request.Url.Segments)
@@ -101,6 +103,7 @@ namespace BasicServerHTTPlistener
                 Console.WriteLine("param2 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
                 Console.WriteLine("param3 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param3"));
                 Console.WriteLine("param4 = " + HttpUtility.ParseQueryString(request.Url.Query).Get("param4"));
+                **/
 
                 //
                 Console.WriteLine(documentContents);
@@ -108,8 +111,11 @@ namespace BasicServerHTTPlistener
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
 
+                Mymethods myMethods = new Mymethods(request.Url);
+                string responseString = myMethods.myMethods(myMethods.getParameters());
+
                 // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                //string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
