@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BasicWebServer",
-    "\\BasicWebServer\\bin",
     "\\BasicWebServer\\obj",
-    "\\BasicWebServer\\Properties",
-    "\\HttpListener\\BasicServerHttpListener"
+    "\\WebDynamic"
   ],
-  "SelectedNode": "\\BasicWebServer\\Program.cs",
+  "SelectedNode": "\\BasicExamplesTP2.sln",
   "PreviewInSolutionExplorer": false
 }

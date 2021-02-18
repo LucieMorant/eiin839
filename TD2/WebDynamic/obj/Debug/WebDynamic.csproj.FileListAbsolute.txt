@@ -1,0 +1,7 @@
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.exe.config
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.exe
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\bin\Debug\WebDynamic.pdb
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csproj.CoreCompileInputs.cache
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.exe
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.pdb
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\WebDynamic\obj\Debug\WebDynamic.csprojAssemblyReference.cache

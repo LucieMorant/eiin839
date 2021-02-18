@@ -1,0 +1,7 @@
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\bin\Release\BasicWebServer.exe.config
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\bin\Release\BasicWebServer.exe
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\bin\Release\BasicWebServer.pdb
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\obj\Release\BasicWebServerUrlParser.csprojAssemblyReference.cache
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\obj\Release\BasicWebServerUrlParser.csproj.CoreCompileInputs.cache
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\obj\Release\BasicWebServer.exe
+C:\Users\Lucie\Documents\Polytech\SEMESTRE4\WebSOC\eiin839\TD2\BasicWebServer\obj\Release\BasicWebServer.pdb
