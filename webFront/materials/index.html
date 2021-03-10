@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- The title of the page is written in the tab of the browser. -->
+    <link rel="stylesheet" href="main.css"/>
     <title>My first Web Services UI client</title>
 </head>
 <body>
-    <h1 id="workingTest"></h1>
+    <label for="apiKey">Your API Key :</label>
+    <input id="apiKey">
+    <button id="retrieveContractsButton" onclick="retrieveAllContracts();">Retrieve contracts</button>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

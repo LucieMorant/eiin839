@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\TD2\\BasicWebServer\\Properties",
-    "\\TD2\\HttpListener",
-    "\\TD3",
     "\\TD3\\BasicRESTApi",
-    "\\TD3\\BasicRESTApi\\TD3"
+    "\\TD3\\BasicRESTApi\\TD3",
+    "\\webFront",
+    "\\webFront\\helper\\exercise2"
   ],
-  "SelectedNode": "\\TD3\\BasicRESTApi\\TD3\\Question1.csproj",
+  "SelectedNode": "\\webFront",
   "PreviewInSolutionExplorer": false
 }
