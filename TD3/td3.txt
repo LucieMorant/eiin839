@@ -1,0 +1,14 @@
+- List the contracts of JCDecaux
+GET https://api.jcdecaux.com/vls/v1/contracts?apiKey=b20334bec126de3154d21f3a6b7b3b17e80fc131
+
+- Choose a contract and get the corresponding list of stations
+GET https://api.jcdecaux.com/vls/v3/stations?contract=Lyon&apiKey=b20334bec126de3154d21f3a6b7b3b17e80fc131
+
+- Choose a station and get the corresponding news
+GET https://api.jcdecaux.com/vls/v3/stations/32001?contract=Lyon&apiKey=b20334bec126de3154d21f3a6b7b3b17e80fc131
+
+- Choose a contract and get the corresponding list of Bikes Parks
+GET https://api.jcdecaux.com/parking/v1/contracts/Lyon/parks?apiKey=b20334bec126de3154d21f3a6b7b3b17e80fc131
+
+- Choose a Bikes Park and get the corresponding retrieving information
+GET https://api.jcdecaux.com/parking/v1/contracts/Lyon/parks/{park_number}
