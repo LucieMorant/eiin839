@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\session5",
+    "\\session5\\WebService_MultipleEndpoints_Different_Address"
   ],
-  "SelectedNode": "\\MathsLibrary.sln",
+  "SelectedNode": "\\session5\\WebService_MultipleEndpoints_Different_Address\\WebService_MultipleEndpoints_Different_Address.sln",
   "PreviewInSolutionExplorer": false
 }
